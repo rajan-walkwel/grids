@@ -18,15 +18,27 @@
 }
 .header {
     grid-area: h;
+	background: #2976e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .menu {
     grid-area: m;
+background: #fcdb00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content {
     grid-area: c;
 }
 .footer {
     grid-area: f;
+background: #4fa951;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .list {
     padding-left: 0;
