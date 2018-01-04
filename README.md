@@ -1,4 +1,4 @@
-![grids](assets/grid.png)
+![grids](assets/grid1.png)
 
 # Css Grids
 

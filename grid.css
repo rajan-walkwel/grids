@@ -1,6 +1,6 @@
 .container {
     display: grid;    
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(3, 100px);
     grid-template-rows: 50px 350px 50px;
     grid-gap: 5px;
     grid-template-areas:
@@ -65,4 +65,25 @@ li {
 }
 .list :nth-child(6) {
     grid-column: 1/ span 2;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 11px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+}
+.timeline > ul {
+    display: grid;
+    grid-gap: 11px;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+}
+.timeline > ul > li {
+    background: white;
+    color: black;
+}
+.wrapper > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
