@@ -1,0 +1,8 @@
+.timeline {
+    display: grid;    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px;
+    grid-gap: 5px;
+    grid-template-areas:
+        "p p . . i i i i i i i i";
+}
